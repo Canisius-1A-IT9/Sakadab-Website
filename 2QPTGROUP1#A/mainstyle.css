@@ -1,0 +1,320 @@
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: Gray;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: Gray;
+  color: white;
+}
+
+ 
+#Logo {
+ width: 60px;
+ height: 40px;
+ object-position: left top;
+ 
+ }
+ 
+ #IMG {
+  width: 300px;
+  height: 230px;
+  border: 2px solid black;
+  vertical-align: middle;
+  text-align: right;
+  }
+  
+  #JPG {
+  width: 360px;
+  height: 300px;
+  border: 2px solid black;
+  vertical-align: middle;
+  text-align: middle;
+  }
+  
+	h2 {
+  font-family: Garamond, serif;
+}
+
+body {
+  font-family: Garamond, serif;
+}
+
+#LONG {
+ width: 300px;
+  height: 400px;
+  border: 2px solid black;
+  vertical-align: middle;
+  text-align: right;
+  }
+  
+#ING {
+ font-size: 12px;
+ }
+  
+  
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.navbar{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;	
+	position: relative;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+	height: 3px;
+	width: 0;
+	background: #009688;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	transition: 0.5s;
+}
+.navbar ul li:hover:after{ 
+    width: 100%;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50);
+	text-align: center;
+	color: #fff;
+}
+.content h2{
+	font-size: 50px;
+	margin-bottom: 100px;
+	padding: 0px;
+}
+body {
+	background-color: #758f8d;
+	background-attachment: center;
+	background-repeat: no-repeat;
+}
+.container{
+	padding: 100px;
+}
+.lines{
+	width: 900px;
+	height: 45px;
+	position: relative;
+}
+.lines::after, .lines::before{
+	content:'';
+	position:absolute;
+	margin:auto;
+	height:2px;
+	background: #fff;
+	width: 45%;
+	top: 45%;
+}
+.lines::after{
+	left:0;
+}
+.lines::before{
+	right:0;
+}
+.circle{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 70%;
+}
+.picRight{
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+p {
+	margin-top: 80px;
+}
+.picBottom{
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.picTop{
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.picLeft{
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.picCenter{
+	float:left;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.container{
+	padding: 100px;
+}
+.lines{
+	width: 500px;
+	height: 45px;
+	position: relative;
+}
+.lines::after, .lines::before{
+	content:'';
+	position:absolute;
+	margin:auto;
+	height:2px;
+	background: #fff;
+	width: 45%;
+	top: 45%;
+}
+.lines::after{
+	left:0;
+}
+.lines::before{
+	right:0;
+}
+.circle{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 70%;
+}
+.picTorial{
+	float:center;
+	margin-right: 1000px;
+	margin-left: 20px;
+}
+.picColo{
+	float:right;
+	margin-right: 100px;
+	margin-left: 100px;
+}
+.container{
+	padding: 100px;
+}
+.lines{
+	width: 900px;
+	height: 45px;
+	position: relative;
+}
+.lines::after, .lines::before{
+	content:'';
+	position:absolute;
+	margin:auto;
+	height:2px;
+	background: #fff;
+	width: 45%;
+	top: 45%;
+}
+.lines::after{
+	left:0;
+}
+.lines::before{
+	right:0;
+}
+.circle{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 70%;
+}
+.picDodot{
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.picBurayl{
+	float:left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.container{
+	padding: 100px;
+}
+.lines{
+	width: 900px;
+	height: 45px;
+	position: relative;
+}
+.lines::after, .lines::before{
+	content:'';
+	position:absolute;
+	margin:auto;
+	height:2px;
+	background: #fff;
+	width: 45%;
+	top: 45%;
+}
+.lines::after{
+	left:0;
+}
+.lines::before{
+	right:0;
+}
+.circle{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #fff;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 70%;
+}
+
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+}
